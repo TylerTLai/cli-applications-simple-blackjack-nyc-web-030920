@@ -9,7 +9,6 @@ end
 
 def display_card_total(card_total)
   puts "Your cards add up to #{card_total}"
-  card_total
 end
 
 def prompt_user
@@ -30,6 +29,7 @@ def initial_round
   card_total = first_card + second_card
 
   display_card_total(card_total)
+  card_total
 
 end
 
