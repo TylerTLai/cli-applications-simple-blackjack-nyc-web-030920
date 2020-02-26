@@ -51,10 +51,10 @@ def hit?(card_total)
   
 end
 
-# def invalid_command
-#   print "Please enter a valid command"
-#   prompt_user
-# end
+def invalid_command
+  print "Please enter a valid command"
+  prompt_user
+end
 
 #####################################################
 # get every test to pass before coding runner below #
